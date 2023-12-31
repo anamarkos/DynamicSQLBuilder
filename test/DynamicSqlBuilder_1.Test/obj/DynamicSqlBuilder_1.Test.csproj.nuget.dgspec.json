@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\TestProjects\\DynamiSqlBuilder_1\\test\\DynamicSqlBuilder_1.Test\\DynamicSqlBuilder_1.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\DynamiSqlBuilderConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\DynamiSqlBuilderConsole.csproj",
+        "projectName": "DynamiSqlBuilderConsole",
+        "projectPath": "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\DynamiSqlBuilderConsole.csproj",
+        "packagesPath": "C:\\Users\\Tassos\\.nuget\\packages\\",
+        "outputPath": "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tassos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\TestProjects\\DynamiSqlBuilder_1\\test\\DynamicSqlBuilder_1.Test\\DynamicSqlBuilder_1.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\TestProjects\\DynamiSqlBuilder_1\\test\\DynamicSqlBuilder_1.Test\\DynamicSqlBuilder_1.Test.csproj",
+        "projectName": "DynamicSqlBuilder_1.Test",
+        "projectPath": "C:\\TestProjects\\DynamiSqlBuilder_1\\test\\DynamicSqlBuilder_1.Test\\DynamicSqlBuilder_1.Test.csproj",
+        "packagesPath": "C:\\Users\\Tassos\\.nuget\\packages\\",
+        "outputPath": "C:\\TestProjects\\DynamiSqlBuilder_1\\test\\DynamicSqlBuilder_1.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tassos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\DynamiSqlBuilderConsole.csproj": {
+                "projectPath": "C:\\TestProjects\\DynamiSqlBuilder_1\\src\\DynamiSqlBuilderConsole\\DynamiSqlBuilderConsole.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
